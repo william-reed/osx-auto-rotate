@@ -1,4 +1,4 @@
-#OSX Auto Rotate
+# OSX Auto Rotate
 I have identical dual monitors with one in a landscape orientation and OSX can never seem to keep track of which one is which when I plug in my MacBook. I constantly have to deal with the wrong monitor being rotated so I wrote a small script to fix that.
 
 [`fb-rotate`](https://github.com/CdLbB/fb-rotate) is doing all the heavy lifitng for me
@@ -16,11 +16,11 @@ Then run
 ```
 From this list you must determine which monitor you want as your main and which you want as your secondary. 
 
-Based on that information seti:
+Based on that information set:
 - `$DIS0` to the id of your main display
 - `$DIS1` to the id of your secondary display
-- `DIS0_ROT` to the desired rotation of your primary display (0, 90, 180, 270)
-- `DIS1_ROT` to the desired rotation of your secondary display (0, 90, 180, 270)
+- `$DIS0_ROT` to the desired rotation of your primary display (0, 90, 180, 270)
+- `$DIS1_ROT` to the desired rotation of your secondary display (0, 90, 180, 270)
 
 Lastly make sure your script is executable:
 ```
